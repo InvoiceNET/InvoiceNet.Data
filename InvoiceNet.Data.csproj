@@ -40,9 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\AuditableDbRecord.cs" />
-    <Compile Include="Entity\GenericUser.cs" />
-    <Compile Include="Entity\IUser.cs" />
     <Compile Include="SqlCommand.cs" />
     <Compile Include="SqlConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

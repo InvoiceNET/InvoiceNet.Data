@@ -163,6 +163,21 @@ namespace InvoiceNet.Data
             return m_dataReader.GetInt64(i);
         }
 
+        public UInt16 GetUInt16(int i)
+        {
+            return Convert.ToUInt16(m_dataReader.GetValue(i));
+        }
+
+        public UInt32 GetUInt32(int i)
+        {
+            return Convert.ToUInt32(m_dataReader.GetValue(i));
+        }
+
+        public UInt64 GetUInt64(int i)
+        {
+            return Convert.ToUInt64(m_dataReader.GetValue(i));
+        }
+
         public string GetName(int i)
         {
             return m_dataReader.GetName(i);
